@@ -6,7 +6,7 @@ export default function LearnComponentPage() {
     return ( 
     <div>
         <div className="w-full p-10 flex flex-wrap gap-5 justify-center">
-        <div className="w-full md:w-60 p-10 rounded-sm flex-col items-center text-center">
+        <div className="w-full md:w-300 p-10 rounded-sm flex items-center text-center space-x-6">
         <Card
         imageSource="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
          name="avatar "
@@ -21,6 +21,16 @@ export default function LearnComponentPage() {
         imageSource="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
          name="avatar "
             >avatar    
+        </Card>
+         <Card
+        imageSource="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
+         name="avatar "
+            >avatar  
+        </Card>
+         <Card
+        imageSource="https://avatars.githubusercontent.com/u/9919?s=200&v=4"
+         name="avatar "
+            >avatar  
         </Card>
         
         </div>

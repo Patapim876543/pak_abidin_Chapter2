@@ -7,7 +7,7 @@ type Prop = {
 }
 export default function Card(prop : Prop) {
     return (
-    <div className="w-full md:w-60 p-10 border rounded-sm flex-col items-center">
+    <div className="w-full md:w-60 p-10 border rounded-sm flex flex-col items-center">
                 <Image
                 alt="image1"
                 width={100} height={100}
